@@ -33,7 +33,7 @@ map.on('load', () => {
 map.addSource('earthquakes', {
 type: 'geojson',
 // Use a URL for the value for the `data` property.
-data: 'http://localhost:5500/clientes.geojson'
+data: 'https://39923278.servicio-online.net/clientes.geojson'
 });
  
 map.addLayer({
@@ -50,7 +50,8 @@ map.addLayer({
 
 map.on('click', 'earthquakes-layer', (e) => {
             const features = map.queryRenderedFeatures(e.point, { layers: ['earthquakes-layer'] });
-            console.log('Clicked on marker:', features[0].properties.id);
+            const feature = features[0].properties
+            alert("Nombre: " + features[0].properties.nombre + `\nDirección ${feature.direccion}\nEmail: ${feature.email}\nTeléfono: ${feature.telefono}`);
         });
 
 });
