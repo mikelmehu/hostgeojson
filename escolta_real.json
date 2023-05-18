@@ -1,0 +1,285 @@
+{
+    "type": "FeatureCollection",
+    "query": [
+        "escolta",
+        "real",
+        "22"
+    ],
+    "features": [
+        {
+            "id": "address.2581680379413026",
+            "type": "Feature",
+            "place_type": [
+                "address"
+            ],
+            "relevance": 0.8,
+            "properties": {
+                "accuracy": "rooftop",
+                "mapbox_id": "dXJuOm1ieGFkcjpkMTlkZDY0ZS1lMGJjLTRmMzMtYWI1NC1mOTY1ZGYxMmQzZWM="
+            },
+            "text": "Erregezainen Kalea",
+            "place_name": "Erregezainen Kalea 22, 20008 Donostia, Gipuzkoa, Spain",
+            "center": [
+                -2.001494,
+                43.312459
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.001494,
+                    43.312459
+                ]
+            },
+            "address": "22",
+            "context": [
+                {
+                    "id": "neighborhood.478278",
+                    "mapbox_id": "dXJuOm1ieHBsYzpCMHhH",
+                    "text": "Antiguo"
+                },
+                {
+                    "id": "postcode.29806150",
+                    "mapbox_id": "dXJuOm1ieHBsYzpBY2JPUmc",
+                    "text": "20008"
+                },
+                {
+                    "id": "locality.123759174",
+                    "mapbox_id": "dXJuOm1ieHBsYzpCMkJxUmc",
+                    "text": "Donostia"
+                },
+                {
+                    "id": "place.19712070",
+                    "wikidata": "Q10313",
+                    "mapbox_id": "dXJuOm1ieHBsYzpBU3pJUmc",
+                    "text": "Donostia"
+                },
+                {
+                    "id": "region.353350",
+                    "short_code": "ES-SS",
+                    "wikidata": "Q95010",
+                    "mapbox_id": "dXJuOm1ieHBsYzpCV1JH",
+                    "text": "Gipuzkoa"
+                },
+                {
+                    "id": "country.8774",
+                    "short_code": "es",
+                    "wikidata": "Q29",
+                    "mapbox_id": "dXJuOm1ieHBsYzpJa1k",
+                    "text": "Spain"
+                }
+            ]
+        },
+        {
+            "id": "address.6162450778551368",
+            "type": "Feature",
+            "place_type": [
+                "address"
+            ],
+            "relevance": 0.6,
+            "properties": {
+                "accuracy": "street",
+                "mapbox_id": "dXJuOm1ieGFkcjo3OTYyYjJkOS1iZTlmLTQ5NjYtODA5ZC03ZjM1YjA0NDhlOTY="
+            },
+            "text": "Cm Real",
+            "place_name": "Cm Real, 22469 Benasque, Huesca, Spain",
+            "center": [
+                0.509514726653855,
+                42.5966882641531
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.509514726653855,
+                    42.5966882641531
+                ]
+            },
+            "context": [
+                {
+                    "id": "postcode.32714310",
+                    "mapbox_id": "dXJuOm1ieHBsYzpBZk11Umc",
+                    "text": "22469"
+                },
+                {
+                    "id": "place.8898630",
+                    "wikidata": "Q575809",
+                    "mapbox_id": "dXJuOm1ieHBsYzpoOGhH",
+                    "text": "Benasque"
+                },
+                {
+                    "id": "region.132166",
+                    "short_code": "ES-HU",
+                    "wikidata": "Q55182",
+                    "mapbox_id": "dXJuOm1ieHBsYzpBZ1JH",
+                    "text": "Huesca"
+                },
+                {
+                    "id": "country.8774",
+                    "short_code": "es",
+                    "wikidata": "Q29",
+                    "mapbox_id": "dXJuOm1ieHBsYzpJa1k",
+                    "text": "Spain"
+                }
+            ]
+        },
+        {
+            "id": "address.7385415342513548",
+            "type": "Feature",
+            "place_type": [
+                "address"
+            ],
+            "relevance": 0.6,
+            "properties": {
+                "accuracy": "street"
+            },
+            "text": "Cañada Real",
+            "place_name": "Cañada Real, 22421 Azanuy-Alins, Huesca, Spain",
+            "center": [
+                0.3054033,
+                42.0112263
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.3054033,
+                    42.0112263
+                ]
+            },
+            "context": [
+                {
+                    "id": "postcode.32517702",
+                    "mapbox_id": "dXJuOm1ieHBsYzpBZkF1Umc",
+                    "text": "22421"
+                },
+                {
+                    "id": "place.6907974",
+                    "wikidata": "Q793581",
+                    "mapbox_id": "dXJuOm1ieHBsYzphV2hH",
+                    "text": "Azanuy-Alins"
+                },
+                {
+                    "id": "region.132166",
+                    "short_code": "ES-HU",
+                    "wikidata": "Q55182",
+                    "mapbox_id": "dXJuOm1ieHBsYzpBZ1JH",
+                    "text": "Huesca"
+                },
+                {
+                    "id": "country.8774",
+                    "short_code": "es",
+                    "wikidata": "Q29",
+                    "mapbox_id": "dXJuOm1ieHBsYzpJa1k",
+                    "text": "Spain"
+                }
+            ]
+        },
+        {
+            "id": "address.27590557290624",
+            "type": "Feature",
+            "place_type": [
+                "address"
+            ],
+            "relevance": 0.6,
+            "properties": {
+                "accuracy": "street"
+            },
+            "text": "Calle Real",
+            "place_name": "Calle Real, 22377 Torla-Ordesa, Huesca, Spain",
+            "center": [
+                -0.1415538,
+                42.6114658
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1415538,
+                    42.6114658
+                ]
+            },
+            "context": [
+                {
+                    "id": "postcode.32370246",
+                    "mapbox_id": "dXJuOm1ieHBsYzpBZTN1Umc",
+                    "text": "22377"
+                },
+                {
+                    "id": "locality.157215302",
+                    "mapbox_id": "dXJuOm1ieHBsYzpDVjdxUmc",
+                    "text": "Fragén"
+                },
+                {
+                    "id": "place.56608838",
+                    "wikidata": "Q1765558",
+                    "mapbox_id": "dXJuOm1ieHBsYzpBMS9JUmc",
+                    "text": "Torla-Ordesa"
+                },
+                {
+                    "id": "region.132166",
+                    "short_code": "ES-HU",
+                    "wikidata": "Q55182",
+                    "mapbox_id": "dXJuOm1ieHBsYzpBZ1JH",
+                    "text": "Huesca"
+                },
+                {
+                    "id": "country.8774",
+                    "short_code": "es",
+                    "wikidata": "Q29",
+                    "mapbox_id": "dXJuOm1ieHBsYzpJa1k",
+                    "text": "Spain"
+                }
+            ]
+        },
+        {
+            "id": "address.3750140229587994",
+            "type": "Feature",
+            "place_type": [
+                "address"
+            ],
+            "relevance": 0.580952,
+            "properties": {
+                "accuracy": "street",
+                "mapbox_id": "dXJuOm1ieGFkcjo5OTA5NTJlMy1lZDRmLTQ5NzYtYjY2Yi1hYzE4ZWZiZDBlODI="
+            },
+            "text": "Calle Escuela",
+            "place_name": "Calle Escuela, 22486 Bonansa, Huesca, Spain",
+            "center": [
+                0.667465318569777,
+                42.4273365896121
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.667465318569777,
+                    42.4273365896121
+                ]
+            },
+            "context": [
+                {
+                    "id": "postcode.32812614",
+                    "mapbox_id": "dXJuOm1ieHBsYzpBZlN1Umc",
+                    "text": "22486"
+                },
+                {
+                    "id": "place.10471494",
+                    "wikidata": "Q748790",
+                    "mapbox_id": "dXJuOm1ieHBsYzpuOGhH",
+                    "text": "Bonansa"
+                },
+                {
+                    "id": "region.132166",
+                    "short_code": "ES-HU",
+                    "wikidata": "Q55182",
+                    "mapbox_id": "dXJuOm1ieHBsYzpBZ1JH",
+                    "text": "Huesca"
+                },
+                {
+                    "id": "country.8774",
+                    "short_code": "es",
+                    "wikidata": "Q29",
+                    "mapbox_id": "dXJuOm1ieHBsYzpJa1k",
+                    "text": "Spain"
+                }
+            ]
+        }
+    ],
+    "attribution": "NOTICE: © 2023 Mapbox and its suppliers. All rights reserved. Use of this data is subject to the Mapbox Terms of Service (https://www.mapbox.com/about/maps/). This response and the information it contains may not be retained. POI(s) provided by Foursquare."
+}

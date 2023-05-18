@@ -1,0 +1,270 @@
+{
+    "type": "FeatureCollection",
+    "query": [
+        "san",
+        "anton",
+        "nº2",
+        "1",
+        "dcha",
+        "20560",
+        "oñati",
+        "es"
+    ],
+    "features": [
+        {
+            "id": "postcode.30346822",
+            "type": "Feature",
+            "place_type": [
+                "postcode"
+            ],
+            "relevance": 0.583333,
+            "properties": {
+                "mapbox_id": "dXJuOm1ieHBsYzpBYzhPUmc"
+            },
+            "text": "20560",
+            "place_name": "20560, Oñati, Gipuzkoa, Spain",
+            "matching_place_name": "20560, Oñati, Gipuzkoa, ES",
+            "bbox": [
+                -2.422257,
+                43.025181,
+                -2.405719,
+                43.034255
+            ],
+            "center": [
+                -2.413715,
+                43.032852
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.413715,
+                    43.032852
+                ]
+            },
+            "context": [
+                {
+                    "id": "place.41543750",
+                    "wikidata": "Q496588",
+                    "mapbox_id": "dXJuOm1ieHBsYzpBbm5vUmc",
+                    "text": "Oñati"
+                },
+                {
+                    "id": "region.353350",
+                    "short_code": "ES-SS",
+                    "wikidata": "Q95010",
+                    "mapbox_id": "dXJuOm1ieHBsYzpCV1JH",
+                    "text": "Gipuzkoa"
+                },
+                {
+                    "id": "country.8774",
+                    "short_code": "es",
+                    "wikidata": "Q29",
+                    "mapbox_id": "dXJuOm1ieHBsYzpJa1k",
+                    "text": "Spain"
+                }
+            ]
+        },
+        {
+            "id": "place.41543750",
+            "type": "Feature",
+            "place_type": [
+                "place"
+            ],
+            "relevance": 0.481481,
+            "properties": {
+                "wikidata": "Q496588",
+                "mapbox_id": "dXJuOm1ieHBsYzpBbm5vUmc"
+            },
+            "text": "Oñati",
+            "place_name": "Oñati, Gipuzkoa, Spain",
+            "matching_place_name": "Oñati, Gipuzkoa, ES",
+            "bbox": [
+                -2.479609,
+                42.946783,
+                -2.351604,
+                43.08214
+            ],
+            "center": [
+                -2.413715,
+                43.032852
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.413715,
+                    43.032852
+                ]
+            },
+            "context": [
+                {
+                    "id": "region.353350",
+                    "short_code": "ES-SS",
+                    "wikidata": "Q95010",
+                    "mapbox_id": "dXJuOm1ieHBsYzpCV1JH",
+                    "text": "Gipuzkoa"
+                },
+                {
+                    "id": "country.8774",
+                    "short_code": "es",
+                    "wikidata": "Q29",
+                    "mapbox_id": "dXJuOm1ieHBsYzpJa1k",
+                    "text": "Spain"
+                }
+            ]
+        },
+        {
+            "id": "place.911508",
+            "type": "Feature",
+            "place_type": [
+                "place"
+            ],
+            "relevance": 0.437778,
+            "properties": {
+                "mapbox_id": "dXJuOm1ieHBsYzpEZWlV"
+            },
+            "text": "Manton",
+            "place_name": "Manton, Shan, Myanmar",
+            "matching_place_name": "Manton, Şan, Myanmar",
+            "bbox": [
+                96.958383,
+                23.094422,
+                97.696104,
+                23.69555
+            ],
+            "center": [
+                97.412684,
+                23.331573
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    97.412684,
+                    23.331573
+                ]
+            },
+            "context": [
+                {
+                    "id": "region.33940",
+                    "short_code": "MM-17",
+                    "wikidata": "Q456847",
+                    "mapbox_id": "dXJuOm1ieHBsYzpoSlE",
+                    "text": "Shan"
+                },
+                {
+                    "id": "country.8852",
+                    "short_code": "mm",
+                    "wikidata": "Q836",
+                    "mapbox_id": "dXJuOm1ieHBsYzpJcFE",
+                    "text": "Myanmar"
+                }
+            ]
+        },
+        {
+            "id": "locality.60828230",
+            "type": "Feature",
+            "place_type": [
+                "locality"
+            ],
+            "relevance": 0.409259,
+            "properties": {
+                "mapbox_id": "dXJuOm1ieHBsYzpBNkFxUmc"
+            },
+            "text": "A Ucha",
+            "place_name": "A Ucha, A Cañiza, Pontevedra, Spain",
+            "matching_place_name": "A Ucha, A Cañiza, Pontevedra, ES",
+            "bbox": [
+                -8.300585931,
+                42.242432102,
+                -8.299754614,
+                42.243128418
+            ],
+            "center": [
+                -8.300273,
+                42.242941
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.300273,
+                    42.242941
+                ]
+            },
+            "context": [
+                {
+                    "id": "place.337990",
+                    "wikidata": "Q969445",
+                    "mapbox_id": "dXJuOm1ieHBsYzpCU2hH",
+                    "text": "A Cañiza"
+                },
+                {
+                    "id": "region.410694",
+                    "short_code": "ES-PO",
+                    "wikidata": "Q95086",
+                    "mapbox_id": "dXJuOm1ieHBsYzpCa1JH",
+                    "text": "Pontevedra"
+                },
+                {
+                    "id": "country.8774",
+                    "short_code": "es",
+                    "wikidata": "Q29",
+                    "mapbox_id": "dXJuOm1ieHBsYzpJa1k",
+                    "text": "Spain"
+                }
+            ]
+        },
+        {
+            "id": "locality.60836422",
+            "type": "Feature",
+            "place_type": [
+                "locality"
+            ],
+            "relevance": 0.409259,
+            "properties": {
+                "mapbox_id": "dXJuOm1ieHBsYzpBNkJLUmc"
+            },
+            "text": "A Ucha",
+            "place_name": "A Ucha, Poio, Pontevedra, Spain",
+            "matching_place_name": "A Ucha, Poio, Pontevedra, ES",
+            "bbox": [
+                -8.69469493,
+                42.450139126,
+                -8.694094525,
+                42.450584395
+            ],
+            "center": [
+                -8.694395,
+                42.450362
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.694395,
+                    42.450362
+                ]
+            },
+            "context": [
+                {
+                    "id": "place.44959814",
+                    "wikidata": "Q1631776",
+                    "mapbox_id": "dXJuOm1ieHBsYzpBcTRJUmc",
+                    "text": "Poio"
+                },
+                {
+                    "id": "region.410694",
+                    "short_code": "ES-PO",
+                    "wikidata": "Q95086",
+                    "mapbox_id": "dXJuOm1ieHBsYzpCa1JH",
+                    "text": "Pontevedra"
+                },
+                {
+                    "id": "country.8774",
+                    "short_code": "es",
+                    "wikidata": "Q29",
+                    "mapbox_id": "dXJuOm1ieHBsYzpJa1k",
+                    "text": "Spain"
+                }
+            ]
+        }
+    ],
+    "attribution": "NOTICE: © 2023 Mapbox and its suppliers. All rights reserved. Use of this data is subject to the Mapbox Terms of Service (https://www.mapbox.com/about/maps/). This response and the information it contains may not be retained. POI(s) provided by Foursquare."
+}
