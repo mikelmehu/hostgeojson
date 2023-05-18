@@ -1,6 +1,6 @@
 import json
 
-file = open("clientes.json", "r")
+file = open("clientes_nuevo.json", "r")
 data = json.loads(file.read())
 file.close()
 id = 1
@@ -10,6 +10,6 @@ for item in data["clientes"]:
     datos.append(item)
     id = id + 1
 
-f = open("clientes_id.json", "a")
+f = open("clientes_id_nuevo.json", "a")
 json.dump(datos, f)
 f.close()
