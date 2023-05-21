@@ -19,7 +19,7 @@ body { margin: 0; padding: 0; }
 const map = new mapboxgl.Map({
 container: 'map', // container ID
 // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
-style: 'mapbox://styles/mapbox/satellite-v9', // style URL
+style: 'mapbox://styles/mapbox/satellite-streets-v12', // style URL
 projection: 'globe', // Display the map as a globe, since satellite-v9 defaults to Mercator
 zoom: 2, // starting zoom
 center: [108, 4] // // starting center in [lng, lat]
@@ -33,7 +33,7 @@ map.on('load', () => {
 map.addSource('earthquakes', {
 type: 'geojson',
 // Use a URL for the value for the `data` property.
-data: 'https://github.com/mikelmiras/mapa-inaki/blob/c22543e78d315f1b979cbe68bdb69f632fd068cc/clientes.geojson'
+data: 'https://39923278.servicio-online.net/appmapa/get.php'
 });
  
 map.addLayer({
@@ -51,7 +51,7 @@ map.addLayer({
 map.on('click', 'earthquakes-layer', (e) => {
             const features = map.queryRenderedFeatures(e.point, { layers: ['earthquakes-layer'] });
             const feature = features[0].properties
-            alert("Nombre: " + features[0].properties.nombre + `\nDirección ${feature.direccion}\nEmail: ${feature.email}\nTeléfono: ${feature.telefono}`);
+            alert("Nombre: " + features[0].properties.nombre + `\nDirección ${feature.direccion}\nFacturación 2021: ${feature["2021"]}\nFacturación 2022: ${feature["2022"]}\nFacturación 2023: ${feature["2023"]}`);
         });
 
 });

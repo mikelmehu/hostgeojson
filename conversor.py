@@ -27,8 +27,9 @@ def convert_to_geojson(json_array):
                     "id":str(item.get("id")),
                     "direccion":str(item.get("direccion")),
                     "nombre":str(item.get("nombre")),
-                    "telefono":item.get("telefono"),
-                    "email":item.get("email")
+                    "2021":str(item.get("datos")["2021"]),
+                    "2022":str(item.get("datos")["2022"]),
+                    "2023":str(item.get("datos")["2023"])
                 }
             }
             geojson_data["features"].append(feature)
@@ -37,7 +38,7 @@ def convert_to_geojson(json_array):
 
 
 # Example usage
-file = open("clientes_id_nuevo.json", "r")
+file = open("clientes_nuevo.json", "r")
 out = open("clientes.geojson", "a")
 geojson = convert_to_geojson(json.loads(file.read())["clientes"])
 
